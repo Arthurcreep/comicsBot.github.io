@@ -1,0 +1,2 @@
+appMainButtonStart.addEventListener('touchend', (e) => {
+});

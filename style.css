@@ -1,0 +1,37 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+a {
+    color:inherit;
+    text-decoration: none;
+}
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #fff;
+    font-size: 14px;
+    width: 400px;
+}
+.appHeader {
+    display: flex;
+    margin: 0;
+    padding: 15px 15px;
+    margin-top: 20px;
+    background-color: rgb(82, 54, 54);
+    justify-content: space-around;
+    flex-direction: column;
+    width: 200px;
+}
+.appMain {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    width: 200px;
+    height: 200px;
+}
